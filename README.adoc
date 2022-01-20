@@ -61,6 +61,27 @@ image::{image-url-ironhack}[width=70]
 
 toc::[]
 
+== Activity
+
+=== Find for each account an `owner` and a `disponent`.
+
+`*_Answer:_*`
+
+```sql
+SELECT
+    a.account_id,
+    d.`type` AS type_of_disposition
+FROM
+    `account` a
+    INNER JOIN disp d ON a.account_id = d.account_id
+ORDER BY
+    1
+LIMIT
+    10;
+```
+
+image::https://user-images.githubusercontent.com/63274055/150354848-569fa74d-cf60-448f-8181-4da27f1446a8.png[width=600]
+
 
 
 ====
