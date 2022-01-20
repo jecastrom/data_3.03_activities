@@ -1,4 +1,4 @@
-= XXX Activity 99 to 99 | 9.99
+= 3 03 Activity
 :stylesheet: boot-darkly.css
 :linkcss: boot-darkly.css
 :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
@@ -6,7 +6,7 @@
 :description: SQL queries Activities
 //:script-url: ADD SCRIPT URL HERE 
 :toc:
-:toc-title: Activities | Description:
+:toc-title: Activities | Description: Keep working on the bank database.
 :toc-placement!:
 :toclevels: 5
 //:fn-xxx: Add the explanation foot note here bla bla
