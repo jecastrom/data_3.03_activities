@@ -4,7 +4,7 @@
 :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
 :my-name: Jorge Castro DAPT NOV2021
 :description: SQL queries Activities
-//:script-url: ADD SCRIPT URL HERE 
+:rel-cont: https://github.com/jecastrom/lab-sql-self-cross-join.git
 :toc:
 :toc-title: Activities | Description: Keep working on the bank database.
 :toc-placement!:
@@ -52,6 +52,8 @@ image::{image-url-ironhack}[width=70]
 
 {my-name}
 
+{rel-cont}[Related content: Lab | SQL Self and cross join]
+
 
                                                      
 ====
@@ -90,16 +92,10 @@ image::https://user-images.githubusercontent.com/63274055/150519394-b2767e93-26c
 ''''
 ====
 
-====
-''''
-====
-
-====
-''''
-====                                                          
+                                          
 
 
-{script-url}[Solutions script only]
+{rel-cont}[Related content: Lab | SQL Self and cross join]
 
 ====
 ''''
@@ -107,9 +103,9 @@ image::https://user-images.githubusercontent.com/63274055/150519394-b2767e93-26c
 
 //bla bla blafootnote:[{fn-xxx}]
 
-xref:XXX-Activity-99-to-99-|-9.99[Top Section]
+xref:3-03-Activity[Top Section]
 
-xref:Last-section[Bottom section]
+
 
 
 ////
