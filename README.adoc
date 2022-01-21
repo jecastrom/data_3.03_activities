@@ -70,17 +70,19 @@ toc::[]
 ```sql
 SELECT
     d1.account_id,
-    d1.`type`,
-    d2.`type`
+    d1.client_id AS owner_id,
+    d2.client_id AS disponent_id
 FROM
     disp d1
     INNER JOIN disp d2 ON d1.account_id = d2.account_id
     AND d1.type != d2.type
+WHERE
+    d1.type = 'owner'
 LIMIT
     10;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/150517146-7c97b2fa-7b5c-4140-8b66-79b2d340ac8a.png[width=600]
+image::https://user-images.githubusercontent.com/63274055/150519394-b2767e93-26c5-461d-88f0-8a73b773bc43.png[width=600]
 
 
 
