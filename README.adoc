@@ -69,18 +69,18 @@ toc::[]
 
 ```sql
 SELECT
-    a.account_id,
-    d.`type` AS type_of_disposition
+    d1.account_id,
+    d1.`type`,
+    d2.`type`
 FROM
-    `account` a
-    INNER JOIN disp d ON a.account_id = d.account_id
-ORDER BY
-    1
+    disp d1
+    INNER JOIN disp d2 ON d1.account_id = d2.account_id
+    AND d1.type != d2.type
 LIMIT
     10;
 ```
 
-image::https://user-images.githubusercontent.com/63274055/150354848-569fa74d-cf60-448f-8181-4da27f1446a8.png[width=600]
+image::https://user-images.githubusercontent.com/63274055/150517146-7c97b2fa-7b5c-4140-8b66-79b2d340ac8a.png[width=600]
 
 
 

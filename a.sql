@@ -1,10 +1,10 @@
 SELECT
-    a.account_id,
-    d.`type` AS type_of_disposition
+    d1.account_id,
+    d1.`type`,
+    d2.`type`
 FROM
-    `account` a
-    INNER JOIN disp d ON a.account_id = d.account_id
-ORDER BY
-    1
+    disp d1
+    INNER JOIN disp d2 ON d1.account_id = d2.account_id
+    AND d1.type != d2.type
 LIMIT
     10;
