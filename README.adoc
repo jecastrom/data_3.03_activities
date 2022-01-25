@@ -83,7 +83,9 @@ WHERE
 LIMIT
     10;
 ```
-
+```
+Without the limit, 869 row(s) returned
+```
 image::https://user-images.githubusercontent.com/63274055/150519394-b2767e93-26c5-461d-88f0-8a73b773bc43.png[width=600]
 
 
